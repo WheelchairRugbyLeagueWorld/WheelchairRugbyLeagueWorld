@@ -7,7 +7,7 @@
 
 /* Header Styling */
 header {
-    background: #1a1a1a;
+    background: #F78705;
     padding: 15px 0;
     position: sticky;
     top: 0;
@@ -26,7 +26,7 @@ header {
 
 /* Logo Styling */
 .logo {
-    height: 50px;
+    height: 200px;
 }
 
 /* Navigation Links */
