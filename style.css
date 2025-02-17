@@ -52,3 +52,7 @@ header {
 .nav-links a:hover {
     color: #ffcc00;
 }
+header img {
+    height: 60px; /* Adjust as needed */
+    width: auto; /* Keeps aspect ratio */
+}
