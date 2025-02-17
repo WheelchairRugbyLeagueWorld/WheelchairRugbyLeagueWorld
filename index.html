@@ -1,102 +1,17 @@
 <header>
     <div class="container">
-        <a href="index.html" class="logo">
-            <img src="images/Wheelchair Rugby League World Logo Black.png" alt="Wheelchair Rugby League World">
-        </a>
+        <img src="images/Wheelchair Rugby League World Logo Black.jpg" alt="Wheelchair Rugby League World Logo" class="logo">
         <nav>
             <ul class="nav-links">
-                <li><a href="news.html">News</a></li>
-                <li><a href="fixtures.html">Fixtures</a></li>
-                <li><a href="teams.html">Teams</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Fixtures</a></li>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <button class="menu-toggle">
-            <img src="icons/menu.svg" alt="Menu">
-        </button>
     </div>
 </header>
-
-/* Header Styling */
-header {
-    background: #1a1a1a;
-    padding: 15px 0;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-/* Centering Content */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/* Logo Styling */
-.logo img {
-    height: 50px;
-}
-
-/* Navigation Links */
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-}
-
-.nav-links li {
-    display: inline;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    transition: color 0.3s;
-}
-
-.nav-links a:hover {
-    color: #ffcc00; /* RugbyPass-style gold hover */
-}
-
-/* Mobile Menu Button */
-.menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-.menu-toggle img {
-    width: 30px;
-    height: 30px;
-}
-
-/* Responsive Mobile Nav */
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 20px;
-        background: #1a1a1a;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .menu-toggle {
-        display: block;
     }
 }
 
