@@ -1,17 +1,54 @@
-/* Import Google Fonts for a clean, modern look */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-
-/* Reset default margin and padding */
+/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Set background color and font */
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: #f9f9f9;
-    color: #222;
-    padding: 20px;
+/* Header Styling */
+header {
+    background: #1a1a1a;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Centering Content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo Styling */
+.logo {
+    height: 50px;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+/* RugbyPass-style gold hover */
+.nav-links a:hover {
+    color: #ffcc00;
 }
