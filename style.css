@@ -17,9 +17,9 @@ header {
     align-items: center;
 }
 
-.logo img {img src="images/Wheelchair Rugby League World Logo Black.png"}
-    height: 50px; 
-    width: auto;
+.logo {
+    height: 80px !important;
+    width: auto !important;
 }
 
 }
