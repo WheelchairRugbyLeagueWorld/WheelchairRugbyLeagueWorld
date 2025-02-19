@@ -17,8 +17,11 @@ header {
     align-items: center;
 }
 
-.logo h1 {
-    margin: 0;
+.logo img {
+    height: 50px; 
+    width: auto;
+}
+
 }
 
 nav ul {
