@@ -18,10 +18,10 @@ header {
 }
 
 .logo {
-    height: 80px !important;
+    height: 150px !important;
     width: auto !important;
-    colour: #FFFFFF;
-}
+    logo-colour: #FFFFFF; !important;
+} 
 
 }
 
@@ -45,7 +45,7 @@ nav ul li a {
 /* Hero Section */
 .hero {
     text-align: center;
-    background-color: #272171;
+    background-color: #ffffff;
     color: white;
     padding: 50px 20px;
 }
@@ -88,7 +88,7 @@ nav ul li a {
 /* Footer */
 footer {
     text-align: center;
-    background: #272171;
+    background: #ffffff;
     color: white;
     padding: 10px;
     margin-top: 20px;
